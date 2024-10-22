@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 const page = () => {
   return (
@@ -7,13 +9,13 @@ const page = () => {
         <h1>DevShayan</h1>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li>
-            <a href="/about">About</a>
+            <Link href="/about">About</Link>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
@@ -25,7 +27,7 @@ const page = () => {
           <button>Explore More</button>
         </div>
         <div id="right">
-          <img src="/pexels-jmark-253096-removebg-preview.png" alt="Car" />
+          <Image src="/pexels-jmark-253096-removebg-preview.png" alt="Car" />
         </div>
       </main>
 
@@ -34,7 +36,7 @@ const page = () => {
         <h2>Our Cars for Rent</h2>
         <div className="car-grid">
           <div className="car-item">
-            <img
+            <Image
               src="/pexels-mikebirdy-244206-removebg-preview.png"
               alt="Car 1"
             />
@@ -42,7 +44,7 @@ const page = () => {
             <p>Experience luxury with top-tier performance.</p>
           </div>
           <div className="car-item">
-            <img
+            <Image
               src="/pexels-mikebirdy-116675-removebg-preview.png"
               alt="Car 2"
             />
@@ -50,7 +52,7 @@ const page = () => {
             <p>Perfect for family trips and off-road adventures.</p>
           </div>
           <div className="car-item">
-            <img
+            <Image
               src="/pexels-screenpost-10029773-removebg-preview.png"
               alt="Car 3"
             />

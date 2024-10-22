@@ -1,5 +1,6 @@
 import React from 'react';
 import './contact.css';
+import Link from 'next/link';
 
 const AboutPage = () => {
   return (
@@ -7,9 +8,9 @@ const AboutPage = () => {
       <nav>
         <h1>DevShayan</h1>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/about">About</Link></li>
+          <li><Link href="/contact">Contact</Link></li>
         </ul>
       </nav>
 
