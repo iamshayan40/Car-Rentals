@@ -42,11 +42,23 @@ nav ul {
   font-weight: 600;
   font-size: 1.2vw;
   margin-top: -2vw;
+  color: white;
 }
 
 nav ul li {
-  color: #fff;
+  color: #fff !important;
   cursor: pointer;
+  transition: ease-in-out 0.3s;
+  transform: scale(1);
+}
+
+nav ul li {
+  color: #fff; /* White color */
+}
+
+
+nav ul li a{
+  text-decoration: none;
 }
 
 nav ul li:hover {

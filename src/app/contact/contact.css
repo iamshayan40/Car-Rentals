@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #000; /* Black background */
+  color: #fff;
+}
+
+/* Navigation styling */
+nav {
+  height: 8vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vw 8vw;
+  background-color: #000;
+}
+
+nav h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5vw;
+  color: #007bff; /* Blue color for the brand */
+  margin-top: -2vw;
+}
+
+nav ul {
+  display: flex;
+  gap: 3vw;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.2vw;
+  margin-top: -2vw;
+}
+
+nav ul li {
+  color: #fff;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  color: #007bff;
+  transition: ease-in-out 0.3s;
+  transform: scale(1.1);
+}
+
+
+
+.contact-container {
+    background-color: #1e1e1e; /* Dark background for the form container */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 600px; /* Maximum width for the form */
+    margin: 20px auto; /* Centered horizontally */
+  }
+  
+  .form-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #007bff; /* Blue color for the title */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-input {
+    background-color: #333; /* Dark background for input fields */
+    color: #fff; /* White text for input */
+    border: 1px solid #555; /* Border color */
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 16px;
+    transition: border-color 0.3s;
+  }
+  
+  .form-input:focus {
+    border-color: #007bff; /* Highlight border color on focus */
+  }
+  
+  .submit-button {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+
+/* Footer Styling */
+footer {
+    padding: 2vw 8vw;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2vw;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  
+  /* Social Icons */
+  .social-icons {
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    margin: 2vw 0;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 1.8vw;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff;
+    transform: scale(1.2); /* Grow on hover */
+  }
+  
+  
